@@ -1,0 +1,687 @@
+@media (max-width: 1199px){
+
+	.erp_banner_left_shape,.erp_banner_right_shape{
+		display:none;
+	}
+	.erp_banner_right_select ul {
+    margin-right: -62px;
+}
+	.erp_banner_inner_wrapper img{
+		width:350px;
+		height:350px;
+	}
+	.erp_banner_left_select {
+		top: -48px;
+		left: 0;
+	}
+	.erp_banner_right_select {
+		top: -7px;
+		right: 0;
+	}
+	.main-menu .navigation > li > a{
+		font-size:14px;
+		    padding: 30px 10px;
+	}
+	.erp_pvf_left_cont {
+		padding-top: 100px;
+	}
+}
+
+
+.erp_top_header_wrapper.float_left {
+    
+}
+
+@media (max-width: 991px){
+
+	.erp_banner_inner_wrapper img{
+		display:none;
+	}
+	.erp_banner_left_select{
+		position:unset;
+		float:left;
+		width:50%;
+	}
+	.erp_banner_right_select{
+		position:unset;
+		float:left;
+		width:50%;
+	}
+	.erp_banner_left_select li:first-child{
+		margin-top:0;
+		margin-left:0;
+	}
+	.erp_banner_left_select li:nth-child(2){
+		margin-left:0;
+		    margin-top: 30px;
+	}
+	.erp_banner_left_select li:last-child{
+		margin-left:0;
+		    margin-top: 30px;
+	}
+	.erp_banner_right_select li:first-child{
+		margin-top:0;
+		margin-right:0;
+	}
+	.erp_banner_right_select li:nth-child(2){
+		margin-right:0;
+		    margin-top: 30px;
+	}
+	.erp_banner_right_select li:last-child{
+		margin-right:0;
+		    margin-top: 30px;
+	}
+	.main-menu .navbar-header{
+    position: relative;
+    float:none;
+    display:block;
+    text-align:left;
+    width:100%;
+    top: 0px;
+    z-index:12;
+  }
+
+  .main-header .header-upper.style-two .navbar-brand {
+    	margin: 14px 0 0;
+	}
+
+	.main-header .header-upper.style-two .main-menu .navbar-header .navbar-toggle {
+	    position:  absolute;
+	    right:  0;
+	    top: -63px;
+	}
+
+	.main-header .header-upper.style-two .main-logo {
+	    margin-bottom: 12px;
+	}
+
+  .main-header .logo-outer {
+    padding: 15px 0 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .main-header .header-upper .upper-right {
+    position: relative;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .main-header .main-menu {
+    width: 100%;
+  }
+  
+  .main-menu .navbar-header .navbar-toggle{
+    z-index:7;
+    border:1px solid #3475cb;
+    float:right;
+    padding: 4px 5px;
+	margin-bottom: 32px;
+    cursor:  pointer;
+    border-radius:0px;
+    background:#3475cb;
+  }
+  .erp_nav_wrapper {
+    float: right;
+    width: 100%;
+    position: relative;
+    margin-top: -64px;
+	}
+	.main-menu {
+		float: right;
+		width: 100%;
+	}
+	.main-menu .navbar-collapse{
+		position:absolute;
+		top:100%;
+		left:0;
+		right:0;
+		width:100%;
+		z-index:10;
+	}
+  .erp_logo_wrapper{
+	  padding-top:15px;
+	  padding-bottom:15px; 
+      transform: translate(-60%,30%); 
+  }
+  .main-menu .navbar-header .navbar-toggle .icon-bar{
+    background:#ffffff;
+    height: 2px;
+    width: 22px;
+    display:  block;
+    margin: 4px 5px;
+  }
+
+  .main-menu .collapse {
+     max-height:345px;
+    overflow:auto;
+    float:none;
+    width:100%;
+    padding:0px 0px 0px;
+    border:none;
+    margin:0px;
+    -ms-border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px;
+   }
+
+   .main-menu .navbar-collapse > .navigation{
+    float:none !important;
+    margin:0px !important;
+    width:100% !important;
+    background: #3475cb;
+    border-top:none;
+  }
+  
+  .main-menu .navbar-collapse > .navigation > li{
+    margin:0px !important;
+    float:none !important;
+    width:100%;
+  }
+  
+  .main-menu .navigation > li > a,
+  .main-menu .navigation > li > ul:before{
+    border:none;  
+  }
+  
+  .main-menu .navbar-collapse > .navigation > li > a{
+    padding:10px 10px !important;
+    border:none !important;
+  }
+  
+  .main-menu .navigation li.dropdown > a:after,
+  .main-menu .navigation > li.dropdown > a:before,
+  .main-menu .navigation > li > ul > li > a::before,
+  .main-menu .navigation > li > ul > li > ul > li > a::before{
+    color:#ffffff !important;
+    right:15px;
+    font-size:16px;
+    display:none !important;
+  }
+  
+  .main-menu .navbar-collapse > .navigation > li > ul,
+  .main-menu .navbar-collapse > .navigation > li > ul > li > ul{
+    position:relative;
+    border:none;
+    float:none;
+    visibility:visible;
+    opacity:1;
+    display:none;
+    margin:0px;
+    padding:0px;
+    left:auto !important;
+    right:auto !important;
+    top:auto !important;
+    width:100%;
+    background: #3475cb;
+    -webkit-border-radius:0px;
+    -ms-border-radius:0px;
+    -o-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+    transition:none !important;
+    -webkit-transition:none !important;
+    -ms-transition:none !important;
+    -o-transition:none !important;
+    -moz-transition:none !important;
+    box-shadow:none !important;
+  }
+    
+  .main-menu .navbar-collapse > .navigation > li > ul,
+  .main-menu .navbar-collapse > .navigation > li > ul > li > ul{
+    /* border-top:1px solid rgba(255,255,255,1) !important; */
+  }
+  
+  .main-menu .navbar-collapse > .navigation > li,
+  .main-menu .navbar-collapse > .navigation > li > ul > li,
+  .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li{
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    opacity:1 !important;
+    top:0px !important;
+    padding-top: 0;
+    padding-bottom:  0;
+    left:0px !important;
+    visibility:visible !important;
+    border-bottom:  none;
+  }
+  
+  .main-menu .navbar-collapse > .navigation > li:first-child{
+    border:none;  
+  }
+  
+  .main-menu .navbar-collapse > .navigation > li > a,
+  .main-menu .navbar-collapse > .navigation > li > ul > li > a,
+  .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a{
+    padding:10px 10px !important;
+    line-height:22px;
+    color: #fff;
+	font-size:14px;
+    /* background:#19c365; */
+    text-align:left;
+    min-height:0px;
+  }
+  .dropdown i{
+	  display:none;
+  }
+  
+  .main-menu .navbar-collapse > .navigation > li > a:hover,
+  .main-menu .navbar-collapse > .navigation > li > a:active,
+  .main-menu .navbar-collapse > .navigation > li > a:focus{
+    /* background:#19c365; */
+  }
+  
+  .main-menu .navbar-collapse > .navigation > li:hover > a,
+  .main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+  .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+  .main-menu .navbar-collapse > .navigation > li.current > a,
+  .main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
+    /* background:#19c365; */
+    color:#ffffff !important;
+  }
+  
+  .main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn{
+    display:block;
+  }
+  
+  .main-menu .navbar-collapse > .navigation li.dropdown:after,
+  .main-menu .navigation > li > ul:before,
+  .main-header .info-box:after,
+  .services-section-two .owl-dots{
+    display:none !important;  
+  }
+  .erp_footer_list_cont_center:before,.erp_footer_list_cont_center:after{
+	  display:none;
+  }
+  .erp_footer_logo {
+    padding-top: 25px;
+  }
+  .ff_slider_img_wrapper{
+	  display:none;
+  }
+  .ff_slider_cont_wrapper{
+	  width:100%;
+  }
+  .ff_slider_cont_wrapper{
+	  padding-top:100px;
+  }
+  .ff_main_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content h2{
+	      font-size: 30px;
+    line-height: 40px;
+  }
+  .erp_slider_btn_wrapper li a{
+	      width: 135px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 15px;
+  }
+  .carousel-nevigation{
+	  opacity:1;
+	  left:10px;
+	  right:10px;
+  }
+  .erp_indx_heading h3{
+	  font-size:26px;
+  }
+  .erp_indx_abt_cont {
+		padding-top: 30px;
+		text-align:center;
+	}
+	.erp_indx_abt_cont h3{
+		display:inline-block;
+	}
+	.erp_btn a{
+		float:none;
+		display:inline-block;
+	}
+	.erp_indx_abt_cont h3:after{
+		    left: 0;
+    right: 0;
+    margin: 0px auto;
+	}
+	.erp_tour_img a img{
+		  width:60px;
+	  }
+	  .erp_tour_img a{
+		  width:60px;
+		  top:40%;
+	  }
+	  .erp_tour_img{
+		  height:290px;
+	  }
+	  .erp_product_img_cont h3{
+		  font-size:24px;
+	  }
+	  .ff_main_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content{
+		  padding-top:0;
+	  }
+	  .cont2:after,.cont2:before{
+		  display:none;
+	  }
+	  .erp_inner_banner_cont_wrapper h2 {
+		font-size: 40px;
+	}
+	.erp_inner_banner_wrapper{
+		padding:100px 0;
+	}
+	.erp_regit_top_cont_wrapper img{
+		width:100%;
+        transform: translate(0px, 0px);
+        
+	}
+	.erp_pricing_box_center_wrapper{
+		box-shadow:none;
+	}
+	.Evolve_Scheme{
+		margin-top:30px;
+	}
+	.erp_pvf_right_img {
+		padding-top: 60px;
+	}
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+.erp_top_header_right_wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.erp_top_header_left_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}		
+	
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+.erp_banner_left_select li:last-child {
+    margin-top: 78px;
+}
+.erp_banner_left_select li:nth-child(2) {
+    margin-top: 70px;
+}
+.erp_banner_right_select li:nth-child(2) {
+    margin-top: 70px;
+}
+.erp_banner_right_select li:last-child {
+    margin-top: 78px;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+.erp_banner_main_wrapper.float_left {
+    padding: 50px 0px;
+}	
+.erp_top_header_wrapper.float_left{
+display: none;	
+	
+}
+.erp_banner_main_wrapper {
+    display: none;
+}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+
+.erp_footer_list_right_cont li {
+    float: left;
+    margin-right: 8px;
+}
+}
+
+@media (max-width: 767px)
+{
+	.ff_main_slider_wrapper.product_wrap.float_left {
+    padding-bottom:25px;
+    display:none;
+}
+.page_heading{
+    display:none;
+}
+
+.erp_inner_banner_wrapper {
+    padding: 50px 0;
+}
+.erp_inner_banner_wrapper {
+    background-image: none;
+    background-color: #f3f3f3;
+}
+.erp_indx_abt_cont h2 {
+    font-size: 17px;
+}
+.erp_tour_img_cont h3 {
+    font-size: 19px;
+    line-height: 0;
+    margin-bottom: 10px;
+}
+.erp_tour_img_cont a {
+    font-size: 14px;
+}
+.erp_product_slider_main {
+    margin-top: 25px;
+}
+.erp_product_slider_main2 {
+    margin-top: 15px !important;
+}
+.erp_indx_abt_cont p {
+    font-size: 14px;
+    padding-top: 0px;
+	line-height: 2;
+}
+.erp_quick_link_sec {
+    margin-top: 20px;
+}
+	.erp_top_header_wrapper{
+		text-align:center;
+	}
+	.erp_banner_main_wrapper.float_left {
+    display: none;
+}
+
+.ff_main_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content h2 {
+    font-size: 20px;
+    line-height: 28px;
+}
+.carousel-nevigation .prev,  .carousel-nevigation .next{
+    width: 35px;
+    height: 35px;
+    font-size: 19px;
+    line-height: 35px;
+}
+.ff_main_slider_wrapper {
+    padding-bottom: 50px;
+
+}
+.erp_about_inx_main_wrapper, .erp_product_inx_main_wrapper, .erp_tour_inx_main_wrapper, .erp_testimonial_inx_main_wrapper{
+    padding: 30px 0;
+}
+
+.erp_testi_main_box{
+	padding:10px 0 0 0;
+}
+.erp_testi_slider_main .owl-theme .owl-dots {
+    margin-top: 10px;
+}
+.count-description span {
+    font-size:35px;
+}
+.erp_indx_abt_cont {
+    padding-top: 15px;
+}
+.erp_company_slider_main {
+    margin-top: 40px;
+}
+.erp_indx_faq {
+    padding-top: 30px;
+}
+.erp_indx_faq h3 {
+    font-size: 19px;
+	line-height: 1.4;
+}
+.erp_indx_faq p {
+    font-size: 15px;
+}
+.con{
+	    margin-top: 40px;
+}
+.count-description h5 {
+    margin-top: 10px;
+}
+.erp_testi_slider_main .owl-theme .owl-dots .owl-dot span {
+    width: 11px;
+    height: 11px;
+}
+
+
+.erp_footer_list_cont {
+    margin-top: 31px;
+}
+.erp_bot_footer_main_wrapper p {
+    font-size: 13px;
+
+}
+.erp_footer_main_wrapper {
+    padding-bottom: 50px;
+}
+.erp_footer_list_cont li {
+    margin-top: 20px;
+}
+.erp_testi_main_box p {
+    font-size: 14px;
+}
+.con1, .con2, .con3, .con4 {
+font-size: 18px;}
+
+.erp_indx_abt_cont p span{
+    font-size: 15px;
+    line-height: 1.6;
+    padding-top: 25px;
+}
+
+.erp_indx_abt_cont p {
+    font-size: 14px;
+}
+.erp_tour_img_cont p {
+    font-size: 14px;
+}
+	.erp_top_header_left_wrapper ul{
+		float:none;
+		display:inline-block;
+		padding-top:0;
+	}
+	.erp_top_header_right_wrapper ul{
+		float:none;
+		display:inline-block;
+		padding-top:5px;
+	}
+	.erp_top_header_left_wrapper li{
+		float:none;
+		display:inline-block;
+		padding-top:5px;
+	}
+	.erp_footer_logo {
+		padding-top: 0;
+	  }
+	  .erp_footer_main_wrapper{
+		  padding-top:0;
+	  }
+	  .erp_footer_logo img{
+		  width:125px;
+	  }
+	  .erp_tour_img{
+		      height: 290px;
+	  }
+	  .erp_testi_main_box h3{
+		  font-size:24px;
+	  }
+	  .erp_testi_main_box p img{
+		  display:none !important;
+	  }
+	  .erp_logo_wrapper img{
+		  width:130px;
+	  }
+	  .main-menu .navbar-header .navbar-toggle{
+		      margin-bottom: 23px;
+             margin-top: 40px;
+	  }
+	  .erp_pvf_left_cont {
+		padding-top: 30px;
+        transform: translate(-20px, 10px);
+	}
+	.erp_pvf_abt_bottom_cont h3 {
+		font-size: 22px;
+	}
+	.erp_login_cont_wrapper h2 {
+		font-size: 26px;
+	}
+	.erp_login_field_wrapper{
+		width:100%;
+		    padding: 40px 15px;
+	}
+	.erp_regit_top_cont_wrapper h2 {
+    font-size: 26px;
+    /* transform: translate(-70px, 0px); */
+	}
+	.erp_regit_acont_detail_wrapper h3{
+		font-size:18px;
+	}
+	.erp_regit_acont_detail_wrapper h2 {
+		font-size: 20px;
+	}
+	.erp_regit_form_main_wrapper{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	.erp_pricing_tag_wrapper img{
+		width:180px;
+        transform: translate(81px, 0px);
+	}
+}
+@media (max-width: 580px){
+	.erp_login_cont_wrapper img{
+		width:100%;
+	}
+}
+@media (max-width: 480px){
+	.erp_banner_left_select{
+		width:100%;
+	}
+	.erp_banner_left_select li,.erp_banner_right_select li{
+		margin-top:15px !important;
+	}
+	.erp_banner_right_select{
+		width:100%;
+	}
+	.erp_banner_main_wrapper{
+		padding-bottom:30px;
+		padding-top:15px;
+	}
+	.erp_banner_left_select li select,.erp_banner_right_select li select {
+		width: 175px;
+		height: 50px;
+		font-size:14px;
+	}
+	.erp_top_header_left_wrapper li{
+		font-size:14px;
+	}
+	.erp_banner_left_select li select,.erp_banner_right_select li select{
+		    background-position: 151px 18px;
+	}
+	
+	.erp_top_header_wrapper.float_left {
+    display:none;
+}
+}
+@media (max-width: 380px){
+	
+}
+@media (max-width: 320px){
+	
+}
